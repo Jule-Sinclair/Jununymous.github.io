@@ -13,48 +13,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Blog of Jununymous
-email: junu.sinclair@gmail.com
+title: Your awesome title
+email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog of Front-end developer Jununymous.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://jununymous.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: Junu_Sinclair
-github_username:  Jununymous
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-remote_theme: chesterhow/tale
-theme: tale
-include:
-  - _pages
+theme: minima
 plugins:
   - jekyll-feed
-
-# Assets
-sass:
-  sass_dir: _sass
-  style: compressed
-
-
-# Permalinks
-permalink: /:year-:month-:day/:title
-paginate: 5
-
-# Excludes
-exclude: [
-  Gemfile,
-  Gemfile.lock,
-  tale.gemspec
-  #node_modules
-  #vendor/bundle/
-  #vendor/cache/
-  #vendor/gems/
-  #vendor/ruby/
-]
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
