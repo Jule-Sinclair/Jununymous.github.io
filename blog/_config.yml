@@ -24,7 +24,7 @@ github_username:  Jununymous
 
 # Build settings
 markdown: kramdown
-remote_theme: remote_theme: tale
+remote_theme: chesterhow/tale
 theme: tale
 include:
   - _pages
